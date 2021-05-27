@@ -1,0 +1,126 @@
+body{
+  background-image: url(img/gold_back.png);
+  margin: 0;
+  margin-top: 80px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.l1{
+ width: 300px;
+ margin-bottom: 30px;
+}
+
+.l2{
+  width: 700px;
+}
+
+.main{
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+  flex: 1; 
+
+}
+
+.about{
+  flex: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.photo{
+  flex: 3;
+  font-size: 50px;
+
+}
+
+.menu{
+  flex: 1;
+  font-size: 50px;
+}
+
+.left {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+.left li{
+  font-family: cursive;
+  list-style: none;
+  
+}
+
+.left li a{
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+}
+ 
+.left li a:hover{
+ color: black;
+ font-weight: bold;
+ font-style: italic;
+  
+ }
+  
+ .menu{
+  flex: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+ 
+.right {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+.right li{
+  font-family: cursive;
+  list-style: none;
+}
+
+.right li a{
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+}
+ 
+.right li.hole a:hover{
+  color: rgba(179, 160, 76, 0);
+   background: url(img/whole2.png);
+   background-repeat: no-repeat;
+   background-position: center;
+  }
+
+  .right li.cut a:hover{
+    color: rgba(179, 160, 76, 0);
+     background: url(img/cut2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+    }
+
+ .right li.bake a:hover{
+      color: rgba(179, 160, 76, 0);
+       background: url(img/bake.png);
+       background-repeat: no-repeat;
+       background-position: center;
+      }
+
+   .photo img{
+     /* margin-top: 80px; */
+     width:100% ;
+     /* min-height: 90%; */
+   }   
