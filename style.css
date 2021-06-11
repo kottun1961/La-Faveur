@@ -14,12 +14,14 @@ body{
 }
 
 .l1{
- width: 300px;
+ /* width: 300px; */
+ width: calc(15%);
  margin-bottom: 30px;
 }
 
 .l2{
-  width: 700px;
+  /* width: 700px; */
+  width: calc(38%);
 }
 
 .main{
@@ -57,9 +59,9 @@ body{
 }
 
 .left li{
-  font-family: cursive;
+  font-family: 'Playball', cursive;
   list-style: none;
-  
+  font-size: 55px;
 }
 
 .left li a{
@@ -71,7 +73,7 @@ body{
  color: black;
  font-weight: bold;
  font-style: italic;
-  
+ 
  }
   
  .menu{
@@ -89,7 +91,8 @@ body{
 }
 
 .right li{
-  font-family: cursive;
+  font-family: 'Playball', cursive;
+  font-size: 55px;
   list-style: none;
 }
 
@@ -117,10 +120,12 @@ body{
        background: url(img/bake.png);
        background-repeat: no-repeat;
        background-position: center;
+       height: 100px;
       }
 
    .photo img{
      /* margin-top: 80px; */
-     width:100% ;
+     /* display: block; */
+     width: calc(100%);
      /* min-height: 90%; */
    }   
